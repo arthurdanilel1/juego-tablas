@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="form.JS"></script>
+    <title>Tablas</title>
+</head>
+
+<body>
+    <div class="division"></div>
+    <table>
+        <tr>
+            <td class="divi"></td>
+            <td align="left">
+                cual tabla quieres practicar?
+                <input id="numb">
+            </td>
+            <td style="width: 59%;"></td>
+            <td align="right">
+                <button id="actualizar" onclick="Inicio()">Iniciar</button>
+            </td>
+            <td class="divi"></td>
+        </tr>
+    </table>
+    <div class="division"></div>
+    <div id="caja" align="center">
+        <table>
+            <form id="tab" style="display: none;" autocomplete="off">
+                <b>
+                <texto style="color: rgb(0, 204, 255);"> <label id="ta0"></label> x 1 = <input class="tab" id="respuesta1">  </texto><br> <br>
+                <texto style="color: rgb(255, 60, 0);" > <label id="ta1"></label> x 2 = <input class="tab" id="respuesta2">  </texto> <br> <br>
+                <texto style="color: rgb(0, 255, 149);"> <label id="ta2"></label> x 3 = <input class="tab" id="respuesta3">  </texto> <br> <br>
+                <texto style="color: rgb(0, 0, 255);"  > <label id="ta3"></label> x 4 = <input class="tab" id="respuesta4">  </texto> <br> <br>
+                <texto style="color: rgb(140, 0, 255);"> <label id="ta4"></label> x 5 = <input class="tab" id="respuesta5">  </texto> <br> <br>
+                <texto style="color: rgb(255, 0, 191);"> <label id="ta5"></label> x 6 = <input class="tab" id="respuesta6">  </texto> <br> <br>
+                <texto style="color: rgb(229, 255, 0);"> <label id="ta6"></label> x 7 = <input class="tab" id="respuesta7">  </texto> <br> <br>
+                <texto style="color: rgb(255, 17, 0);" > <label id="ta7"></label> x 8 = <input class="tab" id="respuesta8">  </texto> <br> <br>
+                <texto style="color: rgb(0, 255, 13);" > <label id="ta8"></label> x 9 = <input class="tab" id="respuesta9">  </texto> <br> <br>
+                <texto style="color: rgb(0, 0, 255);" > <label id="ta9"></label> x 10 = <input class="tab" id="respuesta10"> </texto> <br>
+                </b>
+                <div class="division"></div>
+                <button id="calificar" onclick="Calificar()">Calificar</button>
+            </form>
+            <div class="division"></div>
+        </table>
+    </div>
+</body>
+
+</html>

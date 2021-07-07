@@ -1,0 +1,23 @@
+div.division {
+    height: 100px;
+}
+
+td.divi {
+    width: 100px;
+}
+
+texto {
+    font-size: 100px;
+}
+
+input.tab {
+    height: 80px;
+    font-size: 100px;
+    width: 200px;
+}
+
+button.inicio {
+    height: 150;
+    font-size: 100px;
+    width: 600;
+}
